@@ -62,11 +62,10 @@
 
   <status id="playpaus" x="24" y="28" stopBitmap="wa.stop" playBitmap="wa.play" pauseBitmap="wa.pause" ghost="1"/>
 
-  <text
+  <Songticker
     id="songticker" ticker="1"
-	display="songname" default="" showlen="1"
-	x="142" y="23"
-	w="123" h="14"
+	x="142" y="27"
+	w="123" h="9"
 	font="wasabi.font.default" fontsize="13"
   />
   <!-- Visualization -->
@@ -75,6 +74,22 @@
 	x="26" y="43"
 	w="72" h="16"
   /-->
+
+  <text
+    id="bitrate"
+    display="SONGBITRATE" align="left"
+    x="140" y="39"
+    w="17" h="14"
+    font="wasabi.font.default" fontsize="13"
+  />
+
+    <text
+    id="mixrate"
+    display="SONGSAMPLERATE" align="left"
+    x="234" y="39"
+    w="12" h="14"
+    font="wasabi.font.default" fontsize="13"
+  />
 
 </groupdef>
 
