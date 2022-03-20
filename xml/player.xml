@@ -1,0 +1,89 @@
+<!-- Simple Tutorial Skin - Player.xml file
+     Created by pixelpusher and Ken Chen for the official Winamp3 skinning site. -->
+
+<!-- Playback Buttons Group Definition -->
+<groupdef id="player.normal.playbuttons" name="cbuttons">
+  <button 
+    id="Previous"
+	action="PREV" 
+	x="0" y="0" 
+	image="blue-player.button.previous" 
+	tooltip="Previous"
+  />
+  <button
+    id="Play"
+	action="PLAY"
+	x="23" y="0"
+	image="blue-player.button.play"
+	tooltip="Play"
+  />
+  <button
+	id="Pause"
+	action="PAUSE"
+	x="46" y="0"
+	image="blue-player.button.pause"
+	tooltip="Pause"
+  />
+  <button
+	id="Stop"
+	action="STOP"
+	x="69" y="0"
+	image="blue-player.button.stop"
+	tooltip="Stop"
+  />
+  <button
+	id="Next"
+	action="NEXT"
+	x="92" y="0"
+	image="blue-player.button.next"
+	tooltip="Next"
+  />
+  <button
+	id="Eject"
+	action="EJECT"
+	x="121" y="1"
+	image="blue-player.button.eject"
+	tooltip="Eject"
+  />
+</groupdef>
+
+<!-- Song File Information and Visualization Group Definition -->
+<groupdef id="player.normal" name="Winamp">
+  <text
+	id="timer"
+	display="time"
+	x="29" y="24"
+	w="70" h="18"
+	font="player.BIGNUM" fontsize="21" align="right"
+	timecolonwidth="6"
+  />
+
+<script file="scripts/wa2songtimer.maki"/>
+
+  <status id="playpaus" x="24" y="28" stopBitmap="wa.stop" playBitmap="wa.play" pauseBitmap="wa.pause" ghost="1"/>
+
+  <text
+    id="songticker" ticker="1"
+	display="songname" default="" showlen="1"
+	x="142" y="23"
+	w="123" h="14"
+	font="wasabi.font.default" fontsize="13"
+  />
+  <!-- Visualization -->
+  <!--vis
+	id="visual"
+	x="26" y="43"
+	w="72" h="16"
+  /-->
+
+</groupdef>
+
+<!-- Main Window: Container and Layout -->
+<container id="main" name="Main Window" default_x="0" default_y="0" default_visible="1">
+  <!-- First Layout -->
+  <layout id="normal" background="player.main.background" droptarget="pldr">
+	<!-- Using Playback Buttons Group -->
+	<group id="player.normal" />
+	<group id="player.normal.playbuttons" x="12" y="85" />
+  </layout>
+</container>

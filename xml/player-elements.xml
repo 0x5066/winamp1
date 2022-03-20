@@ -1,0 +1,12 @@
+<!-- Element definition -->
+<elements>
+
+<!-- playpaus -->
+    <bitmap id="wa.play" file="player/playpaus.bmp" x="0" y="0" w="9" h="9"/>	
+    <bitmap id="wa.pause" file="player/playpaus.bmp" x="9" y="0" w="9" h="9"/>	
+    <bitmap id="wa.stop" file="player/playpaus.bmp" x="18" y="0" w="9" h="9"/>	
+
+    <bitmapfont id="player.BIGNUM" file="player/numfont.png" charwidth="9" charheight="13" hspacing="3" vspacing="1" gammagroup="Fonts"/>
+    <bitmapfont id="wasabi.font.default" file="player/text.bmp" charwidth="5" charheight="6" hspacing="0" vspacing="0" gammagroup="Display Fonts"/>
+    <bitmap id="player.main.background" file="player/main.bmp"/>
+</elements>

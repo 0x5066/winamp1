@@ -1,0 +1,26 @@
+<!--
+**************************************************************
+	tooltips
+*************************************************************
+
+When tahoma is applied, the tooltip (if not animated that is) will follow 
+Windows' behavior of rendering them, save for it appearing above the cursor
+There's additional skin scaling checks in place to make them appear bigger,
+thanks to mirzi for getting that part to work properly.
+Important to have WinampAbstractionLayer version set to 1.35 or else the
+font may not apply.
+-->
+
+<groupdef id="wasabi.tooltip.group" h="17" noactivation="1">
+
+	<rect id="tooltip.grid.frame" x="1" y="1" w="-2" h="15" sysregion="1" relatw="1" color="255,255,255" filled="1"/>
+
+	<text id="tooltip.text" x="1" y="1" w="0" h="67"
+    relatw="1" relath="0" align="left" valign="top" default="Tooltip Sample" 
+	font="tahoma" antialias="0" fontsize="14" color="0,0,0"/>
+
+	<rect id="tooltip.grid" x="0" y="0" w="0" h="17" sysregion="1" relatw="1" filled="0" color="0,0,0"/>
+
+	<script id="tip" file="player\tooltips.maki"/>
+
+</groupdef>
