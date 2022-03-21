@@ -39,6 +39,12 @@
     <bitmap id="shufp" file="player/shufrep.bmp" x="28" y="15" w="51" h="15"/>
     <bitmap id="shufa" file="player/shufrep.bmp" x="28" y="30" w="51" h="15"/>
 
+<!-- posbar -->
+
+    <bitmap id="posbarbg" file="player/posbar.bmp" x="0" y="0" w="248" h="10"/>
+    <bitmap id="posbar" file="player/posbar.bmp" x="248" y="0" w="30" h="10"/>
+    <bitmap id="posbarp" file="player/posbar.bmp" x="278" y="0" w="30" h="10"/>
+
 <!-- main -->
     <bitmapfont id="player.BIGNUM" file="player/numfont.png" charwidth="9" charheight="13" hspacing="3" vspacing="1" gammagroup="Fonts"/>
     <bitmapfont id="wasabi.font.default" file="player/text.bmp" charwidth="5" charheight="6" hspacing="0" vspacing="0" gammagroup="Display Fonts"/>
