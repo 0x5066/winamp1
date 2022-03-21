@@ -1,53 +1,46 @@
-<!-- Simple Tutorial Skin - Player.xml file
-     Created by pixelpusher and Ken Chen for the official Winamp3 skinning site. -->
+<!-- stolen from pixelpusher and Ken Chen for the official Winamp3 skinning site. -->
+<!-- R.I.P Winamp3 <3 -->
 
-<!-- Playback Buttons Group Definition -->
+<!-- winamp cbuttons -->
 <groupdef id="player.normal.playbuttons" name="cbuttons">
   <button 
-    id="Previous"
+  id="Previous"
 	action="PREV" 
 	x="0" y="0" 
-	image="blue-player.button.previous" 
-	tooltip="Previous"
-  />
+	image="prev"
+  downimage="prevp"/>
+
   <button
-    id="Play"
+  id="Play"
 	action="PLAY"
 	x="23" y="0"
-	image="blue-player.button.play"
-	tooltip="Play"
-  />
+	image="play"
+  downimage="playp"/>
+
   <button
 	id="Pause"
 	action="PAUSE"
 	x="46" y="0"
-	image="blue-player.button.pause"
-	tooltip="Pause"
-  />
+	image="pause"
+  downimage="pausep"/>
+
   <button
 	id="Stop"
 	action="STOP"
 	x="69" y="0"
-	image="blue-player.button.stop"
-	tooltip="Stop"
-  />
+	image="stop"
+  downimage="stopp"/>
+
   <button
 	id="Next"
 	action="NEXT"
 	x="92" y="0"
-	image="blue-player.button.next"
-	tooltip="Next"
-  />
-  <button
-	id="Eject"
-	action="EJECT"
-	x="121" y="1"
-	image="blue-player.button.eject"
-	tooltip="Eject"
-  />
+	image="next"
+  downimage="nextp"/>
+
 </groupdef>
 
-<!-- Song File Information and Visualization Group Definition -->
+<!-- main window construction -->
 <groupdef id="player.normal" name="Winamp">
   <text
 	id="timer"
@@ -59,6 +52,10 @@
   />
 
 <script file="scripts/wa2songtimer.maki"/>
+
+	<button id="player.button.mainmenu" action="SYSMENU" x="6" y="3" image="menu" downimage="menup"/>
+	<button id="player.button.minimize" action="MINIMIZE" x="254" y="3" image="mini" downimage="minip"/>
+	<button id="player.button.close" action="CLOSE" x="264" y="3" image="close" downimage="closep"/>
 
   <status id="playpaus" x="24" y="28" stopBitmap="wa.stop" playBitmap="wa.play" pauseBitmap="wa.pause" ghost="1"/>
 
@@ -99,6 +96,6 @@
   <layout id="normal" background="player.main.background" droptarget="pldr">
 	<!-- Using Playback Buttons Group -->
 	<group id="player.normal" />
-	<group id="player.normal.playbuttons" x="12" y="85" />
+	<group id="player.normal.playbuttons" x="16" y="88" />
   </layout>
 </container>

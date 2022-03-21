@@ -1,12 +1,41 @@
 <!-- Element definition -->
 <elements>
 
+<!-- titlebar -->
+
+    <bitmap id="menu" file="player/titlebar.bmp" x="0" y="0" w="9" h="9"/>
+    <bitmap id="menup" file="player/titlebar.bmp" x="0" y="9" w="9" h="9"/>
+
+    <bitmap id="mini" file="player/titlebar.bmp" x="9" y="0" w="9" h="9"/>
+    <bitmap id="minip" file="player/titlebar.bmp" x="9" y="9" w="9" h="9"/>
+
+    <bitmap id="close" file="player/titlebar.bmp" x="18" y="0" w="9" h="9"/>
+    <bitmap id="closep" file="player/titlebar.bmp" x="18" y="9" w="9" h="9"/>
+
+<!-- cbuttons -->
+
+    <bitmap id="prev" file="player/cbuttons.bmp" x="0" y="0" w="23" h="18"/>
+    <bitmap id="prevp" file="player/cbuttons.bmp" x="0" y="18" w="23" h="18"/>
+
+    <bitmap id="play" file="player/cbuttons.bmp" x="23" y="0" w="23" h="18"/>
+    <bitmap id="playp" file="player/cbuttons.bmp" x="23" y="18" w="23" h="18"/>
+
+    <bitmap id="pause" file="player/cbuttons.bmp" x="46" y="0" w="23" h="18"/>
+    <bitmap id="pausep" file="player/cbuttons.bmp" x="46" y="18" w="23" h="18"/>
+
+    <bitmap id="stop" file="player/cbuttons.bmp" x="69" y="0" w="23" h="18"/>
+    <bitmap id="stopp" file="player/cbuttons.bmp" x="69" y="18" w="23" h="18"/>
+
+    <bitmap id="next" file="player/cbuttons.bmp" x="92" y="0" w="23" h="18"/>
+    <bitmap id="nextp" file="player/cbuttons.bmp" x="92" y="18" w="23" h="18"/>
+
+<!-- main -->
+    <bitmapfont id="player.BIGNUM" file="player/numfont.png" charwidth="9" charheight="13" hspacing="3" vspacing="1" gammagroup="Fonts"/>
+    <bitmapfont id="wasabi.font.default" file="player/text.bmp" charwidth="5" charheight="6" hspacing="0" vspacing="0" gammagroup="Display Fonts"/>
+    <bitmap id="player.main.background" file="player/main.bmp"/>
+
 <!-- playpaus -->
     <bitmap id="wa.play" file="player/playpaus.bmp" x="0" y="0" w="9" h="9"/>	
     <bitmap id="wa.pause" file="player/playpaus.bmp" x="9" y="0" w="9" h="9"/>	
     <bitmap id="wa.stop" file="player/playpaus.bmp" x="18" y="0" w="9" h="9"/>	
-
-    <bitmapfont id="player.BIGNUM" file="player/numfont.png" charwidth="9" charheight="13" hspacing="3" vspacing="1" gammagroup="Fonts"/>
-    <bitmapfont id="wasabi.font.default" file="player/text.bmp" charwidth="5" charheight="6" hspacing="0" vspacing="0" gammagroup="Display Fonts"/>
-    <bitmap id="player.main.background" file="player/main.bmp"/>
 </elements>

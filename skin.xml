@@ -8,11 +8,6 @@
     <author>Eris Lund (0x5066) and mirzi</author>
     <screenshot>screenshot.png</screenshot>
   </skininfo>
-  <include file="@DEFAULTSKINPATH@xml/thinger.xml"/>
-  <include file="@DEFAULTSKINPATH@xml/pledit.xml"/>
-  <include file="@DEFAULTSKINPATH@xml/player-elements.xml"/>
-  <include file="@DEFAULTSKINPATH@xml/pledit-normal-group.xml"/>
-  <include file="@DEFAULTSKINPATH@xml/video.xml"/>
   <include file="xml/player-elements.xml"/>
   <include file="xml/player.xml"/>
 </WinampAbstractionLayer>
