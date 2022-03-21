@@ -100,7 +100,7 @@
 
 <slider id="player.slider.seek" action="SEEK" x="16" y="72" w="248" h="10" orientation="horizontal" thumb="posbar" downthumb="posbarp" rectrgn="1"/>
 
-<script file="scripts/setposbar.maki"/>
+<script file="scripts/setposbarvisibility.maki"/>
 
 </groupdef>
 
