@@ -53,6 +53,14 @@
 
 <script file="scripts/wa2songtimer.maki"/>
 
+  <togglebutton id="Repeat" x="189" y="89" image="rep"
+  downImage="repp" activeImage="repa"
+  cfgattrib="{45F3F7C1-A6F3-4EE6-A15E-125E92FC3F8D};Repeat" cfgval="2"/>
+
+  <togglebutton id="Shuffle" x="139" y="89" image="shuf"
+  downImage="shufp" activeImage="shufa"
+  cfgattrib="{45F3F7C1-A6F3-4EE6-A15E-125E92FC3F8D};Shuffle"/>
+
 	<button id="player.button.mainmenu" action="SYSMENU" x="6" y="3" image="menu" downimage="menup"/>
 	<button id="player.button.minimize" action="MINIMIZE" x="254" y="3" image="mini" downimage="minip"/>
 	<button id="player.button.close" action="CLOSE" x="264" y="3" image="close" downimage="closep"/>

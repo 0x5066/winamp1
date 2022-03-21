@@ -29,6 +29,16 @@
     <bitmap id="next" file="player/cbuttons.bmp" x="92" y="0" w="23" h="18"/>
     <bitmap id="nextp" file="player/cbuttons.bmp" x="92" y="18" w="23" h="18"/>
 
+<!-- shufrep -->
+
+    <bitmap id="rep" file="player/shufrep.bmp" x="0" y="0" w="28" h="15"/>
+    <bitmap id="repp" file="player/shufrep.bmp" x="0" y="15" w="28" h="15"/>
+    <bitmap id="repa" file="player/shufrep.bmp" x="0" y="30" w="28" h="15"/>
+
+    <bitmap id="shuf" file="player/shufrep.bmp" x="28" y="0" w="51" h="15"/>
+    <bitmap id="shufp" file="player/shufrep.bmp" x="28" y="15" w="51" h="15"/>
+    <bitmap id="shufa" file="player/shufrep.bmp" x="28" y="30" w="51" h="15"/>
+
 <!-- main -->
     <bitmapfont id="player.BIGNUM" file="player/numfont.png" charwidth="9" charheight="13" hspacing="3" vspacing="1" gammagroup="Fonts"/>
     <bitmapfont id="wasabi.font.default" file="player/text.bmp" charwidth="5" charheight="6" hspacing="0" vspacing="0" gammagroup="Display Fonts"/>
