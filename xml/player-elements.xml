@@ -12,6 +12,11 @@
     <bitmap id="close" file="player/titlebar.bmp" x="18" y="0" w="9" h="9"/>
     <bitmap id="closep" file="player/titlebar.bmp" x="18" y="9" w="9" h="9"/>
 
+<!-- main -->
+    <bitmapfont id="player.BIGNUM" file="player/numfont.png" charwidth="9" charheight="13" hspacing="3" vspacing="1" gammagroup="Fonts"/>
+    <bitmapfont id="wasabi.font.default" file="player/text.bmp" charwidth="5" charheight="6" hspacing="0" vspacing="0" gammagroup="Display Fonts"/>
+    <bitmap id="player.main.background" file="player/main.bmp"/>
+
 <!-- cbuttons -->
 
     <bitmap id="prev" file="player/cbuttons.bmp" x="0" y="0" w="23" h="18"/>
@@ -45,10 +50,12 @@
     <bitmap id="posbar" file="player/posbar.bmp" x="248" y="0" w="29" h="10"/>
     <bitmap id="posbarp" file="player/posbar.bmp" x="278" y="0" w="29" h="10"/>
 
-<!-- main -->
-    <bitmapfont id="player.BIGNUM" file="player/numfont.png" charwidth="9" charheight="13" hspacing="3" vspacing="1" gammagroup="Fonts"/>
-    <bitmapfont id="wasabi.font.default" file="player/text.bmp" charwidth="5" charheight="6" hspacing="0" vspacing="0" gammagroup="Display Fonts"/>
-    <bitmap id="player.main.background" file="player/main.bmp"/>
+<!-- monoster -->
+
+    <bitmap id="stereoon" file="player/monoster.bmp" x="0" y="0" w="29" h="12"/>
+    <bitmap id="stereooff" file="player/monoster.bmp" x="0" y="12" w="29" h="12"/>
+    <bitmap id="monoon" file="player/monoster.bmp" x="30" y="0" w="26" h="12"/>
+    <bitmap id="monooff" file="player/monoster.bmp" x="30" y="12" w="26" h="12"/>
 
 <!-- playpaus -->
     <bitmap id="wa.play" file="player/playpaus.bmp" x="0" y="0" w="9" h="9"/>	

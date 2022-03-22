@@ -96,6 +96,11 @@
     font="wasabi.font.default" fontsize="13"
   />
 
+  <layer id="mono" x="213" y="57" image="monoon" ghost="1"/>
+  <layer id="stereo" x="239" y="57" image="stereoon" ghost="1"/>
+
+  <script file="scripts/monoster.maki"/>
+
 <layer id="posbarbg" x="16" y="72" image="posbarbg" ghost="1" visible="0"/>
 
 <slider id="player.slider.seek" action="SEEK" x="16" y="72" w="248" h="10" orientation="horizontal" thumb="posbar" downthumb="posbarp" rectrgn="1"/>
