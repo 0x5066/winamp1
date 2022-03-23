@@ -107,6 +107,17 @@
 
 <script file="scripts/setposbarvisibility.maki"/>
 
+<group id="volumebar" x="139" y="57" w="68" h="14"/>
+
+</groupdef>
+
+<groupdef id="volumebar">
+
+  <AnimatedLayer id="volume" w="68" h="15" image="volume" start="0" end="27" frameheight="15" ghost="1"/>
+  <slider action="VOLUME" y="-1" w="68" h="15" thumb="volbtn" downthumb="volbtnd"/>
+
+  <script file="scripts/volume.maki"/>
+
 </groupdef>
 
 <!-- Main Window: Container and Layout -->

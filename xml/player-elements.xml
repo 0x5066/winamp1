@@ -58,7 +58,13 @@
     <bitmap id="monooff" file="player/monoster.bmp" x="30" y="12" w="26" h="12"/>
 
 <!-- playpaus -->
-    <bitmap id="wa.play" file="player/playpaus.bmp" x="0" y="0" w="9" h="9"/>	
-    <bitmap id="wa.pause" file="player/playpaus.bmp" x="9" y="0" w="9" h="9"/>	
-    <bitmap id="wa.stop" file="player/playpaus.bmp" x="18" y="0" w="9" h="9"/>	
+    <bitmap id="wa.play" file="player/playpaus.bmp" x="0" y="0" w="9" h="9"/>
+    <bitmap id="wa.pause" file="player/playpaus.bmp" x="9" y="0" w="9" h="9"/>
+    <bitmap id="wa.stop" file="player/playpaus.bmp" x="18" y="0" w="9" h="9"/>
+
+<!-- volume -->
+    <bitmap id="volume" file="player/volume.bmp" x="0" y="0" w="68" h="420"/>
+    <bitmap id="volbtnd" file="player/volume.bmp" x="0" y="422" w="14" h="11"/>
+    <bitmap id="volbtn" file="player/volume.bmp" x="15" y="422" w="14" h="11"/>
+
 </elements>
