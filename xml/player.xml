@@ -73,12 +73,6 @@
 	w="123" h="9"
 	font="wasabi.font.default" fontsize="13"
   />
-  <!-- Visualization -->
-  <!--vis
-	id="visual"
-	x="26" y="43"
-	w="72" h="16"
-  /-->
 
   <text
     id="bitrate"
@@ -109,14 +103,6 @@
 
 <script file="scripts/setposbarvisibility.maki"/>
 
-<group id="volumebar" x="139" y="57" w="68" h="14"/>
-
-  <vis
-	id="visual"
-	x="26" y="43"
-	w="72" h="16"
-  />
-
 </groupdef>
 
 <groupdef id="volumebar">
@@ -128,12 +114,33 @@
 
 </groupdef>
 
+<groupdef id="analyzer">
+  <AnimatedLayer id="band1" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+  <AnimatedLayer id="band2" x="6" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+  <AnimatedLayer id="band3" x="12" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+  <AnimatedLayer id="band4" x="18" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+  <AnimatedLayer id="band5" x="24" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+  <AnimatedLayer id="band6" x="30" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+  <AnimatedLayer id="band7" x="36" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+  <AnimatedLayer id="band8" x="42" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+  <AnimatedLayer id="band9" x="48" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+  <AnimatedLayer id="band10" x="54" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+  <AnimatedLayer id="band11" x="60" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+  <AnimatedLayer id="band12" x="66" w="4" h="15" image="analyzer" start="0" end="7" framewidth="4" ghost="1"/>
+
+  <!-- <text id="analyzerdebug" w="50" h="15" color="255,255,255" bold="1" fontsize="18"/> -->
+
+  <script file="scripts/wa1vis.maki"/>
+</groupdef>
+
 <!-- Main Window: Container and Layout -->
 <container id="main" name="Main Window" default_x="0" default_y="0" default_visible="1">
   <!-- First Layout -->
   <layout id="normal" background="player.main.background" droptarget="pldr">
 	<!-- Using Playback Buttons Group -->
 	<group id="player.normal" />
-	<group id="player.normal.playbuttons" x="16" y="88" />
+	<group id="player.normal.playbuttons" x="16" y="88"/>
+  <group id="volumebar" x="139" y="57" w="68" h="14"/>
+  <group id="analyzer" x="26" y="44"/>
   </layout>
 </container>

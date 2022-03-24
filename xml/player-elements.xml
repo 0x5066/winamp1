@@ -67,4 +67,7 @@
     <bitmap id="volbtnd" file="player/volume.bmp" x="0" y="422" w="14" h="11"/>
     <bitmap id="volbtn" file="player/volume.bmp" x="15" y="422" w="14" h="11"/>
 
+<!-- analyzer -->
+    <bitmap id="analyzer" file="player/analyzer.bmp" x="0" y="0" w="32" h="15"/>
+
 </elements>
