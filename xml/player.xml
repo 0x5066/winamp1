@@ -103,6 +103,8 @@
 
 <script file="scripts/setposbarvisibility.maki"/>
 
+<togglebutton x="251" y="91" w="14" h="16" image="none" hoverimage="none" downimage="none" rectrgn="1" action="TOGGLE" param="guid:{D6201408-476A-4308-BF1B-7BACA1124B12}"/>
+
 </groupdef>
 
 <groupdef id="volumebar">
