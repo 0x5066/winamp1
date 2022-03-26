@@ -79,7 +79,7 @@ setAmplitude(){
 }
 
 anfo(){
-    float falloff = 30;
+    float falloff = 26;
 
     //1,2
     if (band1int >= an1){
