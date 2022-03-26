@@ -38,11 +38,33 @@ System.onResume()
 System.onPlay()
 {
 	getchanneltimer.start();
+    c = getChannels();
+    if(c == 2){
+        mono.setXmlParam("image", "monooff");
+        stereo.setXmlParam("image", "stereoon");
+    }else if(c == 1){
+        mono.setXmlParam("image", "monoon");
+        stereo.setXmlParam("image", "stereooff");
+    }else if(c == -1){
+        mono.setXmlParam("image", "monooff");
+        stereo.setXmlParam("image", "stereooff");
+    }
 }
 
 System.onTitleChange(String newtitle)
 {
 	getchanneltimer.start();
+    c = getChannels();
+    if(c == 2){
+        mono.setXmlParam("image", "monooff");
+        stereo.setXmlParam("image", "stereoon");
+    }else if(c == 1){
+        mono.setXmlParam("image", "monoon");
+        stereo.setXmlParam("image", "stereooff");
+    }else if(c == -1){
+        mono.setXmlParam("image", "monooff");
+        stereo.setXmlParam("image", "stereooff");
+    }
 }
 
 System.onStop(){
@@ -54,7 +76,6 @@ System.onStop(){
 getchanneltimer.onTimer ()
 {
     c = getChannels();
-    //getchanneltimer.stop();
     if(c == 2){
         mono.setXmlParam("image", "monooff");
         stereo.setXmlParam("image", "stereoon");

@@ -76,7 +76,7 @@
 
   <text
     id="bitrate"
-    display="SONGBITRATE" align="left"
+    display="" align="left"
     x="140" y="39"
     w="17" h="14"
     font="wasabi.font.default" fontsize="13"
@@ -86,7 +86,7 @@
 
     <text
     id="mixrate"
-    display="SONGSAMPLERATE" align="left"
+    display="" align="left"
     x="234" y="39"
     w="12" h="14"
     font="wasabi.font.default" fontsize="13"
