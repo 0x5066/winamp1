@@ -49,7 +49,7 @@ setAmplitude(){
     anfo();
 
     float divideby = 4.5;
-    float dc = 240;
+    float dc = 340;
 
     band1int = ((getVisBand(0,0)+getVisBand(0,1)+getVisBand(0,2)+getVisBand(0,3)+getVisBand(0,4)+getVisBand(0,5))/divideby)*6;
     band2int = ((getVisBand(0,6)+getVisBand(0,7)+getVisBand(0,8)+getVisBand(0,9)+getVisBand(0,10)+getVisBand(0,11))/divideby)*4;
