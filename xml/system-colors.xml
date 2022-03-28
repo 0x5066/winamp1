@@ -1,0 +1,121 @@
+<!-- 
+
+  system-colors.xml
+
+
+  this file contains all the static color definitions for Wasabi. An objects that does not rely on a group will use 
+  one of these elements to decide what color to use.
+
+
+
+  Just like in system-elements.xml, the elements beginning with "studio." and "common." have
+  been moved to system-element-aliases.xml for backwards compatibility.  If you are building a
+  skin for Winamp3 (Wasabi Build 488), you should override these element IDs and include the
+  aliases file in your own skin.
+
+-->
+
+
+<elements>
+
+<!-- Playlist Editor -->
+  <color id="pledit.text" value="196,255,196" gammagroup="Display Fonts"/>	<!-- editor item color -->
+  <color id="pledit.text.readonly" value="196,224,196" gammagroup="Display Fonts"/>	<!-- text color in editor -->
+  <color id="pledit.text.current" value="255,255,255" gammagroup="Text"/> <!-- current playback file foreground -->
+  <color id="pledit.text.disabled" value="128,128,128" gammagroup="Display Fonts"/> <!-- disabled entries -->
+  <color id="pledit.currentoutline" value="248,248,0" gammagroup="Display Fonts"/> <!-- current playback file outline -->
+  <color id="pledit.dir.plitem" value="196,255,196" gammagroup="Display Fonts"/> <!-- playlist directory item foreground -->
+  <color id="pledit.dir.plitem.currect" value="248,248,0" gammagroup="Display Fonts"/> <!-- playlist directory item current rectangle marker -->
+  <color id="pledit.dir.working" value="255,255,255" gammagroup="Text"/> <!-- playlist directory working playlist item foreground color -->
+  <color id="pledit.dir.workingbg" value="0,0,128" gammagroup="Text Backgrounds"/> <!-- playlist directory working playlist item background color -->
+
+<!-- Generic Trees -->
+  <color id="wasabi.tree.text" value="196,255,196" gammagroup="Display Fonts"/> <!-- Item text color -->
+  <color id="wasabi.tree.selected" value="0,0,128" gammagroup="Text Backgrounds"/> <!-- Select item text background color -->
+  <color id="wasabi.tree.hiliteddrop" value="0,64,128"/> <!-- Drop marker color -->
+
+  
+<!-- Generic Lists -->
+  <color id="wasabi.list.text" value="196,255,196" gammagroup="Display Fonts"/> <!-- List item text color -->
+  <color id="wasabi.list.item.selected" value="0,0,128" gammagroup="Text Backgrounds"/> <!-- Selected item text background color -->
+  <color id="wasabi.list.item.focused" value="0,0,128" gammagroup="Text Backgrounds"/> <!-- Focused item text background color -->
+  <color id="wasabi.list.column.background" value="102,102,102" gammagroup="Backgrounds"/> <!-- Columns background color -->
+  <color id="wasabi.list.column.text" value="255,255,255" gammagroup="Text"/> <!-- Columns text color -->
+  <color id="wasabi.list.item.selected.fg" value="255,255,255" gammagroup="Text"/> <!-- Selected item text foreground color -->
+  <color id="wasabi.list.column.separator" value="128,128,128"  gammagroup="Text"/> <!-- Color of line between columns -->
+
+  
+<!-- wa5 specific -->
+  <color id="wasabi.list.background" value="0,0,0" gammagroup="Display Backgrounds"/>  <!--lists/trees item background (also bg for edit) -->
+  <elementalias id="wasabi.list.text.selected" target="wasabi.list.item.selected.fg"/> <!--listview/treeview selection bar text color -->
+  <elementalias id="wasabi.list.text.selected.background" target="wasabi.list.item.selected"/> <!--listview/treeview selection bar backcolor -->
+  <color id="wasabi.list.text.current" value="255,255,255" gammagroup="Text"/> <!-- currently playing item in lists -->
+  <color id="wasabi.list.text.selected.inactive" value="128,128,128" gammagroup="Display Fonts"/> <!-- listview/treeview selection bar textcolor (inactive) -->
+  <color id="wasabi.list.text.selected.background.inactive" value="64,64,64" gammagroup="Text Backgrounds"/> <!-- listview/treeview selectionbar back color (inactive) -->
+
+  <color id="wasabi.list.column.frame.top" value="192,192,192" gammagroup="Backgrounds"/> <!-- listview header frame top color -->
+  <color id="wasabi.list.column.frame.middle" value="128,128,128" gammagroup="Backgrounds"/> <!-- listview header frame middle color -->
+  <color id="wasabi.list.column.frame.bottom" value="64,64,64" gammagroup="Backgrounds"/> <!-- listview header frame bottom color -->
+  <color id="wasabi.list.column.empty" value="64,64,64" gammagroup="Backgrounds"/> <!-- listview header empty color (beyond the columns) -->
+
+  <color id="wasabi.window.background" value="128,128,128" gammagroup="Backgrounds"/> <!--window background. -  If this color is not defined, a whole container is created in memory to extract a pixel, so specifying it makes skin loading faster -->
+  <color id="wasabi.window.text" value="255,255,255" gammagroup="Text"/> <!-- text color within windows -->
+  <color id="wasabi.border.sunken" value="192,192,192" gammagroup="Backgrounds"/> <!-- color of dividers and sunken borders -->
+
+  <color id="wasabi.scrollbar.foreground" value="128,128,128" gammagroup="Backgrounds"/> <!-- scrollbar foreground color -->
+  <color id="wasabi.scrollbar.background" value="128,128,128" gammagroup="Backgrounds"/> <!-- scrollbar background color -->
+  <color id="wasabi.scrollbar.foreground.inverted" value="128,128,128" gammagroup="Backgrounds"/> <!-- inverse scrollbar foreground color -->
+  <color id="wasabi.scrollbar.background.inverted" value="128,128,128" gammagroup="Backgrounds"/> <!-- inverse scrollbar background color -->
+<!-- /wa5 specific -->
+
+
+<!-- Item Lists, Lists with playable items -->
+  <color id="wasabi.itemlist.outline.current" value="255,255,0" gammagroup="Display Fonts"/> <!-- Currently playing outline color -->
+  <color id="wasabi.itemlist.outline.focus" value="0,128,128" gammagroup="Display Fonts"/> <!-- Focused item dashed outline color -->
+  <color id="wasabi.itemlist.selborder" value="64,64,196" gammagroup="Text Backgrounds"/>
+
+
+<!-- Message box -->
+  <color id="wasabi.msgBox.background" value="32,32,32" gammagroup="Backgrounds"/> <!-- Messagebox background color -->
+  <color id="wasabi.textBar.text" value="248,248,248" gammagroup="Text"/> <!-- Text object & message box text color -->
+  <color id="wasabi.textBar.background" value="32,32,32" gammagroup="Text Backgrounds"/> <!-- Text object & message box text background color -->
+
+
+<!-- Buttons -->
+  <color id="wasabi.button.text" value="0,0,0" gammagroup="Button Fonts"/> <!-- Buttons text color -->
+  <color id="wasabi.button.hiliteText" value="255,255,255" gammagroup="Button Fonts"/> <!-- Buttons hilite text color, used by tab windows-->
+  <color id="wasabi.button.dimmedText" value="64,64,64" gammagroup="Button Fonts"/> <!-- Buttons dimmed text color, when disabled -->
+
+
+<!-- Popup menus -->
+  <color id="wasabi.popup.text" value="0,0,0" gammagroup="Text"/> <!-- Menu items text color -->
+  <color id="wasabi.popup.hiliteText" value="255,255,255" gammagroup="Text"/> <!-- Hilited item text color -->
+  <color id="wasabi.popup.dimmedText" value="64,64,64" gammagroup="Text"/> <!-- Disabled item text color -->
+
+
+<!-- Components -->
+  <color id="wasabi.component.title.foreground" value="255,255,255" gammagroup="Titlebar Font"/> <!-- Old title bar text color when using TTF -->
+  <color id="wasabi.component.title.border" value="1,1,1" gammagroup="Text Backgrounds"/> <!-- Old title bar text outline when using TTF -->
+
+
+<!-- labeled windows -->
+  <color id="wasabi.labelwnd.foreground" value="220,220,220" gammagroup="Text"/> <!-- Text foreground color -->
+  <color id="wasabi.labelwnd.background" value="0,0,0" gammagroup="Text Backgrounds"/> <!-- Text drop shadow color -->
+
+
+<!-- edit wnds -->
+  <color id="wasabi.edit.selection" value="127,127,127" gammagroup="Text Backgrounds"/> <!-- Selected text -->
+  <color id="wasabi.edit.text" value="196,255,196" gammagroup="Display Fonts"/> <!--Text -->
+  <color id="wasabi.edit.background" value="0,0,0" gammagroup="Display Backgrounds"/> <!--Text background -->
+
+
+<!-- Tabsheet -->
+  <color id="wasabi.tabsheet.activetext" value="255,255,255" gammagroup="Text" />
+  <color id="wasabi.tabsheet.inactivetext" value="200,200,200" gammagroup="Text" />
+
+
+<!-- Wasabi Text -->
+  <color id="wasabi.text.color" value="255,255,255" gammagroup="Text"/>
+  <color id="wasabi.text.color.inverse" value="0,0,0" gammagroup="Text Inverse"/>
+
+</elements>

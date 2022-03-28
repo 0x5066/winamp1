@@ -1,0 +1,182 @@
+
+ <!-- Gamma sets -->
+ <gammaset id="Default">
+   <gammagroup id="Backgrounds" value="-400,-400,100"/>
+   <gammagroup id="Buttons" value="400,200,0"/>
+   <gammagroup id="Thinger icons" value="2016,4072,2016"/>
+   <gammagroup id="Menus" value="1000,1000,1000"/>
+   <gammagroup id="Titlebars" value="2048,1024,-1024"/>
+   <gammagroup id="Playback Status Symbols" value="1000,3500,1000" boost="1"/>
+   <gammagroup id="Titlebar Font" value="0,0,0"/>
+   <gammagroup id="Button Fonts" value="0,0,0"/>
+   <gammagroup id="Display Fonts" value="0,0,0"/>
+   <gammagroup id="Text Backgrounds" value="0,0,0"/>
+   <gammagroup id="Tree Color" value="1000,2000,1000"/>
+   <gammagroup id="Display Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Buttons" value="400,200,0"/>
+   <gammagroup id="Text" value="0,0,0"/>
+   <gammagroup id="Text Inverse" value="0,0,0"/>
+   <gammagroup id="Sliders Backgrounds" value="0,0,0"/>
+   <gammagroup id="Checkboxes and Radio Buttons" value="0,0,0"/>
+ </gammaset>
+ <gammaset id="Grey">
+   <gammagroup id="Backgrounds" value="0,0,0"/>
+   <gammagroup id="Buttons" value="0,0,0"/>
+   <gammagroup id="Thinger icons" value="0,0,0"/>
+   <gammagroup id="Menus" value="1000,1000,1000"/>
+   <gammagroup id="Titlebars" value="0,0,0"/>
+   <gammagroup id="Playback Status Symbols" value="0,0,0" boost="1"/>
+   <gammagroup id="Titlebar Font" value="0,0,0"/>
+   <gammagroup id="Button Fonts" value="0,0,0"/>
+   <gammagroup id="Display Fonts" value="0,0,0"/>
+   <gammagroup id="Text Backgrounds" value="0,0,0"/>
+   <gammagroup id="Tree Color" value="0,0,0"/>
+   <gammagroup id="Display Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Buttons" value="0,0,0"/>
+   <gammagroup id="Text" value="0,0,0"/>
+   <gammagroup id="Text Inverse" value="0,0,0"/>
+   <gammagroup id="Sliders Backgrounds" value="0,0,0"/>
+   <gammagroup id="Checkboxes and Radio Buttons" value="0,0,0"/>
+ </gammaset>
+ <gammaset id="Rust">
+   <gammagroup id="Backgrounds" value="-500,-1000,-1700"/>
+   <gammagroup id="Buttons" value="-100,-400,-700"/>
+   <gammagroup id="Thinger icons" value="0,-1000,-2200"/>
+   <gammagroup id="Menus" value="-200,-1000,-2000"/>
+   <gammagroup id="Titlebars" value="-500,-1000,-2000"/>
+   <gammagroup id="Playback Status Symbols" value="0,-2000,-3500" boost="1"/>
+   <gammagroup id="Titlebar Font" value="2000,0,0"/>
+   <gammagroup id="Button Fonts" value="2000,0,0"/>
+   <gammagroup id="Display Fonts" value="2000,0,0"/>
+   <gammagroup id="Text Backgrounds" value="-1000,-2500,-4000" boost="1"/>
+   <gammagroup id="Tree Color" value="-200,-1000,-2000"/>
+   <gammagroup id="Display Backgrounds" value="-2000,-3500,-4000" boost="1"/>
+   <gammagroup id="Scrollbar Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Buttons" value="-100,-400,-700"/>
+   <gammagroup id="Text" value="2000,0,0"/>
+   <gammagroup id="Text Inverse" value="0,0,0"/>
+   <gammagroup id="Sliders Backgrounds" value="-100,-400,-700"/>
+   <gammagroup id="Checkboxes and Radio Buttons" value="2000,0,0"/>
+ </gammaset>
+ <gammaset id="Blue">
+   <gammagroup id="Backgrounds" value="0,300,1700"/>
+   <gammagroup id="Buttons" value="0,0,0"/>
+   <gammagroup id="Thinger icons" value="2000,2000,0"/>
+   <gammagroup id="Menus" value="0,300,1700"/>
+   <gammagroup id="Titlebars" value="2048,1024,-1024"/>
+   <gammagroup id="Playback Status Symbols" value="2000,2000,-500" boost="1"/>
+   <gammagroup id="Titlebar Font" value="0,0,0"/>
+   <gammagroup id="Button Fonts" value="0,0,0"/>
+   <gammagroup id="Display Fonts" value="2000,2000,-500"/>
+   <gammagroup id="Text Backgrounds" value="0,0,0"/>
+   <gammagroup id="Tree Color" value="2000,2000,-500"/>
+   <gammagroup id="Display Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Buttons" value="0,0,0"/>
+   <gammagroup id="Text" value="0,0,0"/>
+   <gammagroup id="Text Inverse" value="0,0,0"/>
+   <gammagroup id="Sliders Backgrounds" value="0,0,0"/>
+   <gammagroup id="Checkboxes and Radio Buttons" value="2000,2000,-500"/>
+ </gammaset>
+ <gammaset id="Red">
+   <gammagroup id="Backgrounds" value="1700,300,0"/>
+   <gammagroup id="Buttons" value="0,0,0"/>
+   <gammagroup id="Thinger icons" value="1700,300,0"/>
+   <gammagroup id="Menus" value="1700,300,0"/>
+   <gammagroup id="Titlebars" value="2048,1024,-1024"/>
+   <gammagroup id="Playback Status Symbols" value="1700,300,0" boost="1"/>
+   <gammagroup id="Titlebar Font" value="0,0,0"/>
+   <gammagroup id="Button Fonts" value="0,0,0"/>
+   <gammagroup id="Display Fonts" value="1700,300,0"/>
+   <gammagroup id="Text Backgrounds" value="0,0,0"/>
+   <gammagroup id="Tree Color" value="1700,300,0"/>
+   <gammagroup id="Display Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Buttons" value="0,0,0"/>
+   <gammagroup id="Text" value="0,0,0"/>
+   <gammagroup id="Text Inverse" value="0,0,0"/>
+   <gammagroup id="Sliders Backgrounds" value="0,0,0"/>
+   <gammagroup id="Checkboxes and Radio Buttons" value="1700,300,0"/>
+ </gammaset>
+ <gammaset id="Green">
+   <gammagroup id="Backgrounds" value="300,1700,0"/>
+   <gammagroup id="Buttons" value="0,0,0"/>
+   <gammagroup id="Thinger icons" value="300,1700,0"/>
+   <gammagroup id="Menus" value="300,1700,0"/>
+   <gammagroup id="Titlebars" value="2048,1024,-1024"/>
+   <gammagroup id="Playback Status Symbols" value="300,1700,0" boost="1"/>
+   <gammagroup id="Titlebar Font" value="0,0,0"/>
+   <gammagroup id="Button Fonts" value="0,0,0"/>
+   <gammagroup id="Display Fonts" value="300,1700,0"/>
+   <gammagroup id="Text Backgrounds" value="0,0,0"/>
+   <gammagroup id="Tree Color" value="300,1700,0"/>
+   <gammagroup id="Display Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Buttons" value="0,0,0"/>
+   <gammagroup id="Text" value="0,0,0"/>
+   <gammagroup id="Text Inverse" value="0,0,0"/>
+   <gammagroup id="Sliders Backgrounds" value="0,0,0"/>
+   <gammagroup id="Checkboxes and Radio Buttons" value="300,1700,0"/>
+ </gammaset>
+ <gammaset id="Purple">
+   <gammagroup id="Backgrounds" value="0,-1117,0"/>
+   <gammagroup id="Buttons" value="0,-521,0"/>
+   <gammagroup id="Thinger icons" value="373,-322,373"/>
+   <gammagroup id="Menus" value="500,100,1000"/>
+   <gammagroup id="Titlebars" value="2048,1024,-1024"/>
+   <gammagroup id="Playback Status Symbols" value="2000,2000,2000" boost="1"/>
+   <gammagroup id="Titlebar Font" value="2000,2000,2000"/>
+   <gammagroup id="Button Fonts" value="0,0,0"/>
+   <gammagroup id="Display Fonts" value="2000,2000,2000"/>
+   <gammagroup id="Text Backgrounds" value="0,0,0"/>
+   <gammagroup id="Tree Color" value="2000,2000,2000"/>
+   <gammagroup id="Display Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Backgrounds" value="500,100,1000"/>
+   <gammagroup id="Scrollbar Buttons" value="0,-521,0"/>
+   <gammagroup id="Text" value="-521,-521,-521"/>
+   <gammagroup id="Text Inverse" value="0,0,0"/>
+   <gammagroup id="Sliders Backgrounds" value="0,-521,0"/>
+   <gammagroup id="Checkboxes and Radio Buttons" value="2000,2000,2000"/>
+ </gammaset>
+ <gammaset id="Winamp Classic style">
+   <gammagroup id="Backgrounds" value="-2606,-2407,-1762"/>
+   <gammagroup id="Buttons" value="400,400,400"/>
+   <gammagroup id="Thinger icons" value="-4095,620,-4095"/>
+   <gammagroup id="Menus" value="1000,1000,1000"/>
+   <gammagroup id="Titlebars" value="2048,2048,-1024"/>
+   <gammagroup id="Playback Status Symbols" value="-3072,3072,-3072" boost="1"/>
+   <gammagroup id="Titlebar Font" value="0,0,0"/>
+   <gammagroup id="Button Fonts" value="0,0,0"/>
+   <gammagroup id="Display Fonts" value="-3072,3072,-3072"/>
+   <gammagroup id="Text Backgrounds" value="0,0,0"/>
+   <gammagroup id="Tree Color" value="-3072,3072,-3072"/>
+   <gammagroup id="Display Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Buttons" value="400,400,400"/>
+   <gammagroup id="Text" value="0,0,0"/>
+   <gammagroup id="Text Inverse" value="0,0,0"/>
+   <gammagroup id="Sliders Backgrounds" value="0,0,0"/>
+   <gammagroup id="Checkboxes and Radio Buttons" value="-3072,3072,-3072"/>
+ </gammaset>
+ <gammaset id="Winamp Classic red style">
+   <gammagroup id="Backgrounds" value="-2606,-2407,-1762"/>
+   <gammagroup id="Buttons" value="900,400,0"/>
+   <gammagroup id="Thinger icons" value="-4095,620,-4095"/>
+   <gammagroup id="Menus" value="1000,1000,1000"/>
+   <gammagroup id="Titlebars" value="2048,1024,-1024"/>
+   <gammagroup id="Playback Status Symbols" value="-3072,3072,-3072" boost="1"/>
+   <gammagroup id="Titlebar Font" value="0,0,0"/>
+   <gammagroup id="Button Fonts" value="0,0,0"/>
+   <gammagroup id="Display Fonts" value="-3072,3072,-3072"/>
+   <gammagroup id="Text Backgrounds" value="0,0,0"/>
+   <gammagroup id="Tree Color" value="-3072,3072,-3072"/>
+   <gammagroup id="Display Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Backgrounds" value="0,0,0"/>
+   <gammagroup id="Scrollbar Buttons" value="900,400,0"/>
+   <gammagroup id="Text" value="0,0,0"/>
+   <gammagroup id="Text Inverse" value="0,0,0"/>
+   <gammagroup id="Sliders Backgrounds" value="0,0,0"/>
+   <gammagroup id="Checkboxes and Radio Buttons" value="-3072,3072,-3072"/>
+ </gammaset>
