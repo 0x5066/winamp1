@@ -1,7 +1,7 @@
 #include "..\..\..\lib/std.mi"
 #include "..\..\..\lib/winampconfig.mi"
 
-Global Group frameGroup;
+Global Group EQg;
 Global Button btnEQ0;
 Global Boolean manual_set;
 
@@ -14,14 +14,14 @@ System.onScriptLoaded() {
 	WinampConfigGroup eqwcg = WinampConfig.getGroup("{72409F84-BAF1-4448-8211-D84A30A1591A}");
 	int freqmode = eqwcg.getInt("frequencies"); // returns 0 for classical winamp levels, 1 for ISO levels
 
-	frameGroup = getScriptGroup();
-	normal = frameGroup.getParentLayout();
-	btnEQ0 = frameGroup.findObject("EQ_0");
+	EQg = getScriptGroup();
+	normal = EQg.getParentLayout();
+	btnEQ0 = EQg.findObject("EQ_0");
 }
 
 btnEQ0.onLeftClick() {
 	manual_set = 1;
-	for(int i=0; i<10; i++) setEqBand(i, 0);
+	for(int i=0; i<10; i++) setEqBand(i, 1);
 	manual_set = 0;
 }
 
