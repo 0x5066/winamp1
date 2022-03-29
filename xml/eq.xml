@@ -9,9 +9,9 @@
 
         <text x="12" y="91" text="Gain values of >0% can result in distortion."/>
 
-        <text x="28" y="126" text="100% -"/>
-        <text x="12" y="166" text="Gain: 0% -"/>
-        <text x="25" y="207" text="-100% -"/>
+        <text x="28" y="120" text="100% -"/>
+        <text x="12" y="160" text="Gain: 0% -"/>
+        <text x="25" y="201" text="-100% -"/>
 
         <text x="70" y="225" text="bass...................................mid....................................treble"/>
 
