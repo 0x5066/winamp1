@@ -25,7 +25,7 @@ Global int remainder;
 Global int milliseconds_rev;
 Global int i;
 
-Global PopUpMenu clockMenu;
+//Global PopUpMenu clockMenu;
 
 Function AreWePlaying();
 Function InReverse();
@@ -143,7 +143,7 @@ PauseBlink.onTimer(){ //Elapsed
         //DisplayTimeShade.setXmlParam("text", "  :  ");
     }
 }
-
+/*
 DisplayTime.onRightButtonUp (int x, int y){
     int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
 
@@ -159,20 +159,20 @@ DisplayTime.onRightButtonUp (int x, int y){
 	complete;
 }
 
-//DisplayTimeShade.onRightButtonUp (int x, int y){
-//    int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
-//
-//    clockMenu = new PopUpMenu;
-//
-//	clockMenu.addcommand("Time elapsed", 1, timermode == 1,0);
-//	clockMenu.addcommand("Time remaining", 2, timermode == 2,0);
-//
-//	timermode = clockMenu.popAtMouse();
-//
-//	setTimer(timermode);
-//	complete;
-//}
+DisplayTimeShade.onRightButtonUp (int x, int y){
+    int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
 
+    clockMenu = new PopUpMenu;
+
+	clockMenu.addcommand("Time elapsed", 1, timermode == 1,0);
+	clockMenu.addcommand("Time remaining", 2, timermode == 2,0);
+
+	timermode = clockMenu.popAtMouse();
+
+	setTimer(timermode);
+	complete;
+}
+*/
 DisplayTime.onLeftButtonDown(int x, int y)
 {
     int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
