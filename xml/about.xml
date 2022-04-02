@@ -1,0 +1,26 @@
+<elements>
+
+    <bitmap id="taskbar" file="about/taskbar.bmp"/>
+
+</elements>
+
+<groupdef id="aboutplayer">
+
+    <layer image="player.main.background"/>
+    <group id="player.normal" ghost="1"/>
+    <group id="player.normal.playbuttons" x="16" y="88"/>
+    <group id="volumebar" x="139" y="57" w="68" h="14"/>
+    <group id="analyzer" x="26" y="44"/>
+
+</groupdef>
+
+<groupdef id="skin.about.group" w="0" h="0" relatw="1" relath="1" rectrgn="1">
+
+    <rect w="380" h="321" color="0,128,128" filled="1"/>
+    <layer image="taskbar" y="293"/>
+    <text id="currenttime" x="325" y="303" h="11" w="44" font="micross" fontsize="15" color="0,0,0" align="middle" antialias="0"/>
+    <group id="aboutplayer" x="52" y="100"/>
+
+    <script file="scripts/currenttime.maki"/>
+
+</groupdef>
