@@ -1,0 +1,36 @@
+<container id="Pledit" name="Winamp - Playlist Editor" component="guid:{45F3F7C1-A6F3-4ee6-A15E-125E92FC3F8D}" default_w="364">
+    <groupdef id="pledit">
+        <grid
+        x="11" y="11" w="248" h="270"
+        topleft="wasabi.objectframe.top.left"
+        top="wasabi.objectframe.top"
+        topright="wasabi.objectframe.top.right"
+        left="wasabi.objectframe.left"
+        middle="wasabi.objectframe.center"
+        right="wasabi.objectframe.right"
+        bottomleft="wasabi.objectframe.bottom.left"
+        bottom="wasabi.objectframe.bottom"
+        bottomright="wasabi.objectframe.bottom.right"
+        />
+
+        <component x="13" y="13" w="244" h="266" noshowcmdbar="1" autoopen="1" autoclose="1" param="guid:{45F3F7C1-A6F3-4ee6-A15E-125E92FC3F8D}"/>
+        <Wasabi:Button x="269" y="11" w="75" h="23" text="Close" action="close" retcode="0"/>
+        <Wasabi:Button x="269" y="49" w="75" h="23" text="Load Playlist" action="PE_LIST" retcode="0"/>
+        <Wasabi:Button x="269" y="78" w="75" h="23" text="Save Playlist" action="PE_LIST" retcode="0"/>
+        <Wasabi:Button x="269" y="117" w="75" h="23" text="Add Playlist" action="PE_LIST" retcode="0"/>
+        <Wasabi:Button x="269" y="146" w="75" h="23" text="Add MPEG" action="PE_ADD" retcode="0"/>
+
+        <wasabi:button id="playlist.up" x="267" y="189" w="77" h="12" text="▲"/>
+		<script file="scripts/_wa2-morefunctions.maki" param="playlist.up;pledit_up"/>
+        <wasabi:button id="playlist.down" x="267" y="201" w="77" h="12" text="▼"/>
+        <script file="scripts/_wa2-morefunctions.maki" param="playlist.down;pledit_down"/>
+
+        <Wasabi:Button x="269" y="228" w="75" h="23" text="Delete MPEG" action="PE_REM" retcode="0"/>
+        <Wasabi:Button x="269" y="257" w="75" h="23" text="Clear Playlist" action="PE_REM" retcode="0"/>
+    </groupdef>
+
+    <layout id="normal" background="component.basetexture" desktopalpha="0" minimum_h="313" minimum_w="364" maximum_h="313" maximum_w="364" appbar="top|bottom|left|right">
+        <Wasabi:StandardFrame:NoStatus x="0" y="0" w="0" h="0" relatw="1" relath="1" content="pledit"/>
+    </layout>
+
+</container>

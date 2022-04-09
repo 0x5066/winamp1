@@ -4,7 +4,7 @@
 #include "..\..\..\lib/std.mi"
 
 Global AnimatedLayer band1, band2, band3, band4, band5, band6, band7, band8, band9, band10, band11, band12;
-Global text banddebug;
+//Global text banddebug;
 Global Timer wa100analyzers;
 Global float an1, an2, an3, an4, an5, an6, an7, an8, an9, an10, an11, an12;
 Global float clip1, clip2, clip3, clip4, clip5, clip6, clip7, clip8, clip9, clip10, clip11, clip12;
@@ -12,7 +12,6 @@ Global int band1int, band2int, band3int, band4int, band5int, band6int, band7int,
 
 Function setAmplitude();
 Function anfo();
-Function clip();
 
 System.onScriptLoaded(){
 
@@ -31,14 +30,57 @@ System.onScriptLoaded(){
     band11 = visgroup.findObject("band11");
     band12 = visgroup.findObject("band12");
 
-    banddebug = visgroup.findObject("analyzerdebug");
+    //banddebug = visgroup.findObject("analyzerdebug");
 
     wa100analyzers = new Timer;
 	wa100analyzers.setDelay(0);
-    wa100analyzers.start();
-
     setAmplitude();
 
+}
+
+System.onPlay(){
+    wa100analyzers.start();
+}
+
+System.onStop(){
+    wa100analyzers.stop();
+    band1.gotoFrame(0);
+    band2.gotoFrame(0);
+    band3.gotoFrame(0);
+    band4.gotoFrame(0);
+    band5.gotoFrame(0);
+    band6.gotoFrame(0);
+    band7.gotoFrame(0);
+    band8.gotoFrame(0);
+    band9.gotoFrame(0);
+    band10.gotoFrame(0);
+    band11.gotoFrame(0);
+    band12.gotoFrame(0);
+    an1 = 0;
+    an2 = 0;
+    an3 = 0;
+    an4 = 0;
+    an5 = 0;
+    an6 = 0;
+    an7 = 0;
+    an8 = 0;
+    an9 = 0;
+    an10 = 0;
+    an11 = 0;
+    an12 = 0;
+}
+
+System.onPause(){
+    setAmplitude();
+    wa100analyzers.stop();
+}
+
+System.onResume(){
+    wa100analyzers.start();
+}
+
+System.onTitleChange(string newtitle){
+    wa100analyzers.start();
 }
 
 wa100analyzers.onTimer(){

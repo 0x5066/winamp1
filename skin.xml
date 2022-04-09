@@ -13,6 +13,6 @@
   <include file="xml/player-elements.xml"/>
   <include file="xml/player.xml"/>
   <include file="xml/eq.xml"/>
-  <!--include file="xml/pledit.xml"/--> <!-- not yet ;) -->
+  <include file="xml/pledit.xml"/>
   <include file="xml/about.xml"/>
 </WinampAbstractionLayer>
