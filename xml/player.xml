@@ -51,6 +51,9 @@
 	timecolonwidth="6"
   />
 
+  <layer id="TimerTrigger" x="29" y="24"
+	w="70" h="18"/>
+
 <script file="scripts/wa2songtimer.maki"/>
 
   <togglebutton id="Repeat" x="189" y="89" image="rep"

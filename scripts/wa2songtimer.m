@@ -15,6 +15,7 @@
 
 Global String currentpos, strremainder, currentpos_rev;
 Global GuiObject DisplayTime/*DisplayTimeShade*/;
+Global GuiObject TimerTrigger;
 Global Timer timerSongTimer;
 Global Timer timerSongTimerReverse;
 Global Timer PauseBlinkPaused, PauseBlink, Clock;
@@ -53,6 +54,7 @@ System.onScriptLoaded()
     Group mainnormal = getContainer("main").getLayout("normal");
     /* Replace "timer" with "display.time" for Winamp Classic Modern */
     DisplayTime = mainnormal.findObject("timer");
+    TimerTrigger = mainnormal.findObject("TimerTrigger");
     //The above was taken from Ariszló's updated oldtimer.maki script
     //Allows it to be included in the skin.xml file of the skin
 
@@ -173,7 +175,7 @@ DisplayTimeShade.onRightButtonUp (int x, int y){
 	complete;
 }
 */
-DisplayTime.onLeftButtonDown(int x, int y)
+TimerTrigger.onLeftButtonDown(int x, int y)
 {
     int timermode = getPrivateInt(getSkinName(), "TimerElapsedRemaining", 1);
 
