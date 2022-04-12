@@ -51,7 +51,7 @@ System.onScriptLoaded()
     /* Replace "timer" with "shade.time" for Winamp Classic Modern */
     //DisplayTimeShade = mainshade.findObject("timer");
 
-    Group mainnormal = getContainer("main").getLayout("normal");
+    Group mainnormal = getScriptGroup();
     /* Replace "timer" with "display.time" for Winamp Classic Modern */
     DisplayTime = mainnormal.findObject("timer");
     TimerTrigger = mainnormal.findObject("TimerTrigger");

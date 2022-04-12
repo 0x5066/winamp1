@@ -15,4 +15,5 @@
   <include file="xml/eq.xml"/>
   <include file="xml/pledit.xml"/>
   <include file="xml/about.xml"/>
+  <include file="xml/newmain.xml"/>
 </WinampAbstractionLayer>
