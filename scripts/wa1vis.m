@@ -36,7 +36,12 @@ System.onScriptLoaded(){
     wa100analyzers = new Timer;
 	wa100analyzers.setDelay(0);
 
-    setAmplitude();
+    if(getStatus() == -1){
+        setAmplitude();
+    }else if(getStatus() == 1){
+        setAmplitude();
+        wa100analyzers.start();
+    }
 
 }
 
